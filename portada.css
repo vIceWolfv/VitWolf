@@ -1,0 +1,155 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.container
+{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url(img/BG-Plexus-Radial-Loop-ColorCorrection2.gif);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+
+}
+
+.mixBlnd
+{
+	background-blend-mode: screen;
+}
+
+
+.space {
+}
+
+
+.logo-img {
+	margin-bottom: -50%;
+	transform: translate(0% , 50%);
+display: inline-block;
+
+
+}
+
+
+.logo-img img {
+	width: 33%;
+
+}
+
+/*
+h1{
+	margin: 0px;
+	font-size: 14px;
+	color: #fff;
+	font-family: "Poppins";
+	text-align: center;
+}
+
+*/
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%
+	transform: translate(-50%,-50%);
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.go-portfolio {
+	margin-top: 5%;
+}
+
+.go-portfolio ul li {
+				line-height: 40px;
+			    padding: 0 30px;
+			    border-radius: 0px;
+			    background: transparent;
+			    border: 1px solid #fff;
+			    color: #fff;
+			    display: inline-block;
+			    font-weight: 500;
+			    position: relative;
+			    -webkit-transition: all 0.3s ease 0s;
+
+
+			    transition: all 0.3s ease 0s;
+			    cursor: pointer;
+				font-family: 'Poppins', sans-serif;
+
+
+}
+
+.go-portfolio:focus {
+				outline: none;
+
+}
+
+.go-portfolio:before {
+				content: '';
+				display: block;
+				position: absolute;
+				background-image: -webkit-linear-gradient(0deg, #000 0%, #94241e 0%);
+
+
+}
+
+.go-portfolio:after {
+				content: '';
+				display: block;
+				position: absolute;
+				background-image: -webkit-linear-gradient(0deg, #000 0%, #94241e 100%);
+
+}
+
+
+/*
+.go-porfolio ul li a {
+				font-family: 'Poppins', sans-serif;
+			    font-weight: 500;
+
+
+	-webkit-transition: all 0.3s ease 0s;
+
+
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+*/
+
+a {
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+
+}
+
+
+/*
+.go-portfolio ul li:after {
+    background-image: -moz-linear-gradient(0deg, #000 0%, #94241e 100%);
+    background-image: -webkit-linear-gradient(0deg, #000 0%, #94241e 100%);
+    background-image: -ms-linear-gradient(0deg, #000 0%, #94241e 100%);
+}
+*/

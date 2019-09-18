@@ -1,0 +1,106 @@
+.portfoliovit {
+
+}
+
+
+.item-button-galle {
+
+}
+
+.controls ul li {
+	display: inline-block;
+	list-style: none;
+	background: #222;
+	padding: 10px 25px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+.controls ul li:hover{
+	color: #ed1f24;
+}
+
+.controls ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.item-galle {
+	position: relative;
+	margin: 15px 0px;
+	display:block;
+    width: 100%;   
+    transform:scale(1);
+	overflow: hidden;
+
+}
+
+.item-galle img {
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+    transform:scale(1);
+}
+
+.item-galle img:hover{
+	transform: scale(1.2);
+	-webkit-transition: all 500ms
+
+}
+
+.item-galle: before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%
+	background-color:rgba(0,0,0,0.6);
+	opacity: 0;
+	transition: .3s;
+}
+
+
+.item-galle:hover:before {
+	transition: .3s;
+	opacity: 1;
+}
+
+.item-button-galle {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left; 0;
+	width: 100%;
+	text-align: center;
+}
+
+.item-button-galle .fa {
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	text-align: center;
+	background:#222;
+	color: #fff;
+	opacity: 0;
+	transition: .3s;
+}
+
+
+.item-galle:hover .item-button-galle .fa {
+	transition: .3s;
+	opacity: 1;
+
+}
+
+/*
+.containMix .mix {
+	display: none;
+}
+
+*/

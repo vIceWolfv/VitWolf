@@ -1,0 +1,14 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.about-bg {
+	background-image: url(img/Pilar H BG.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+data-img
